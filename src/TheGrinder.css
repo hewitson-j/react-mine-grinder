@@ -1,0 +1,8 @@
+#it {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    height: 35%;
+	animation: flash linear 2s infinite;
+}
