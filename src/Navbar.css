@@ -1,0 +1,36 @@
+#navbar {
+    background: linear-gradient(to right, black, #63380c, black);
+    overflow: hidden;
+}
+
+#navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family:'Patua One', cursive;
+}
+
+#navbar a:hover {
+    animation: blinker 1.5s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+li {
+    display: inline-block;
+}

@@ -1,3 +1,19 @@
+body {
+  -webkit-animation: fadein 1.5s;
+  animation: fadein 1.5s;
+  background-color: black;
+  margin: 1rem;
+  padding: 1rem;
+  color: white;
+  font-family:'Patua One', cursive;
+  overflow-x: hidden;
+}
+
+@keyframes fadein {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
 .App {
   text-align: center;
 }
@@ -14,7 +30,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: black;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
