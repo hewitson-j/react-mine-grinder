@@ -1,0 +1,22 @@
+#animation-pause {
+    /* position: absolute; */
+    font-size: 15pt;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    align-items: center;
+    text-align: center;
+}
+
+input[type='button']{
+    background: linear-gradient(to right, black, #63380c, black);
+    color: white;
+    border-radius: 5px;
+    font-size: 10pt;
+    padding: .5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+input[type='button']:hover {
+    color: gray;
+}
