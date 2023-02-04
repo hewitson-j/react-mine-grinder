@@ -6,6 +6,7 @@ import TheGrinder from "./TheGrinder";
 import Sections from "./Sections";
 import ConceptArt from "./ConceptArt";
 import AboutAuthor from "./AboutAuthor";
+import Copyright from "./Copyright";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           "The author is currently working on getting the book ready for publishing. It should be available on Amazon within the next few weeks. Other links to purchase the book will be included here as well.\nReviews will be included here once the book has been reviewed and critiqued."
         }
       ></Sections>
+      <Copyright />
     </div>
   );
 }
