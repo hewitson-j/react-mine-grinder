@@ -1,0 +1,13 @@
+.fig-and-cap{
+    text-align: center;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 45%;
+    padding: 5px;
+}
