@@ -1,0 +1,12 @@
+.headers {
+    text-align: center;
+    font-size: 24pt;
+}
+
+.paragraphs {
+    text-align: justify;
+    margin: auto;
+    max-width: 1200px;
+    margin-top: 2rem;
+    font-size: 18pt;
+}
