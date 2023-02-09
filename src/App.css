@@ -52,3 +52,8 @@ body {
     transform: rotate(360deg);
   }
 }
+
+::selection {
+  background: #361f09;
+  color: white;
+}

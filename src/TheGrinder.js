@@ -4,7 +4,7 @@ import "./TheGrinder.css";
 function TheGrinder() {
   return (
     <section>
-      <img id="it" src="./MG1.jpg" alt="It..."></img>
+      <img id="it" src="Images/MG1.jpg" alt="It..."></img>
     </section>
   );
 }
